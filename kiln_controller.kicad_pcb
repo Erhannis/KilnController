@@ -4080,6 +4080,10 @@
   (gr_text "//CHECK Stitching caps?" (at 145.8 52.1 -90) (layer "Cmts.User") (tstamp f723bfff-c8a5-4750-8939-22af9960ef27)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
+  (gr_text_box "Stitching caps?\nAdd safety relay?\nReshape planes"
+    (start 191.3 20.5) (end 244.9 57.4) (layer "Cmts.User") (tstamp 668af452-e9f9-4539-83ef-47ed961fa032)
+      (effects (font (size 3 3) (thickness 0.15)) (justify left top))
+    (stroke (width 0.15) (type solid))  )
 
   (segment (start 155.595122 50.064478) (end 155.680643 50.150001) (width 0.25) (layer "F.Cu") (net 3) (tstamp 01940ead-b4d7-4702-983c-e38792fe3e6b))
   (segment (start 157.131631 50.15) (end 155.680643 50.150001) (width 0.5) (layer "F.Cu") (net 3) (tstamp 08a40cb5-7c5b-4b14-8379-321609d7b381))
