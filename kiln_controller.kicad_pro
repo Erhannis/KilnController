@@ -173,7 +173,8 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -493,6 +494,10 @@
     [
       "1dfd94bd-4f09-4b6d-b924-53ba457a6df5",
       "USB-UART"
+    ],
+    [
+      "3cd1cd04-e00d-4346-99ac-d47f181717dc",
+      "General layout"
     ]
   ],
   "text_variables": {}
