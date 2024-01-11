@@ -3573,6 +3573,30 @@
     )
   )
 
+  (symbol (lib_id "erhannis:zip_tie_big") (at 13.335 251.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a94d9e15-5818-489a-acc4-76429efc19f0)
+    (property "Reference" "Z7" (at 20.32 251.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 13.335 251.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "erhannis:zip_tie_big" (at 13.335 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 13.335 251.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kiln_controller"
+        (path "/48f8991f-36a0-4c3c-8402-2e48af4e50f4"
+          (reference "Z7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 22.86 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af21d668-5d87-469d-9de5-c3cef3ccbb0f)
