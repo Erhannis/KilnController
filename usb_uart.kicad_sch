@@ -415,7 +415,7 @@
   (symbol (lib_id "power:GND") (at 136.525 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d17441ef-0e84-44b1-9c64-36f4d92660a1)
-    (property "Reference" "#PWR025" (at 136.525 80.01 0)
+    (property "Reference" "#PWR021" (at 136.525 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 136.525 78.105 0)
