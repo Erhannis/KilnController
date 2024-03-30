@@ -9,7 +9,7 @@ Warning: if any elements are active, all elements are live at >= 120V.  There's 
 
 # Code
 See my fork of PIDKiln at https://github.com/erhannis/PIDKiln
-Note that in order to flash the code, you need to pull BOOT to GND, plug the board in via USB, and then you have a handful of seconds to initiate a data transfer at 115200 baud (either the main code flashing, or the "ESP32 Sketch Data Upload").  Try turning on Arduino IDE logs for compilation and upload, then copy the relevant upload command into the terminal, for timing.  Afterward, remove boot jumper and replug the board.
+Note that in order to flash the code, the board must be unpowered to start, you need to connect BOOT to GND, plug the board in via USB, and then you have a handful of seconds to initiate a data transfer at 115200 baud (either the main code flashing, or the "ESP32 Sketch Data Upload").  Try turning on Arduino IDE logs for compilation and upload, then copy the relevant upload command into the terminal, for timing.  Afterward, remove boot jumper and replug the board.
 
 Disclaimer: I have no formal electronics training, and this thing connects to 240V, so like, maybe use this thing away from anything flammable, and on your own head be the results.  And DON'T TOUCH THE COILS WHILE IT'S HEATING!  Because they're live 240V, and also may be hot.
 
