@@ -1,8 +1,8 @@
 Kiln controller PCB, in KiCAD.  ESP32, controlled (potentially) over wifi.
 
-![PCB Diagram, from JLCPCB](5335756894208-Produce_DanZhi.SMT_Snapshot.Top.6176162A_Y20.SMT02401121555625.png)
+<img alt="PCB Diagram, from JLCPCB" src="5335756894208-Produce_DanZhi.SMT_Snapshot.Top.6176162A_Y20.SMT02401121555625.png" width="300" />
 
-# Instructions
+# Instructions 
 Comes with two thermocouple readers and controls three heating elements.  Attach thermocouples to appropriate points, attach three SSR-DA60 to HEAT1-HEAT3 and another to ALL_POWER, wire in 240V (see instructions on board), recommended don't attach USB while mains voltage is connected; the 5V sources might conflict - also just seems a little unsafe.  The board is shaped to match my Everheat Classic 1210 frontplate - hopefully it fits, haha.  You can reshape it if you want, or just run wires to your thermocouples and elements.  The Main TC is for inside the kiln (PIDKiln has a link to a sturdy thermocouple), the Aux TC is for the kiln outside surface (I think it's optional?).  I broke out all 6 unused GPIO pins.  See [code](#code) for firmware.
 
 Warning: if any elements are active, all elements are live at >= 120V.  There's a blue LED that lights up when any element is active; watch out for the blue LED.  ALSO!  I hear that SSRs can fail closed, meaning the elements may stay live even once the blue LED turns off.  So...maybe just unplug the thing if you're gonna touch the coils.
