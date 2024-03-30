@@ -20,5 +20,5 @@ MIT license.
 
 -Erhannis
 
-Btw, I may end up with a few extra from the manufacturing batch if anybody want to buy one for like, I dunno, $100, say.  Getting 5 from JLCPCB costs around $330 total.
+Btw, I have like 4 extra from the manufacturing batch if anybody want to buy one for like, I dunno, $100, say.  (You'll have to add the SSRs and bus terminals yourself, though.)  Getting 5 boards assembled from JLCPCB costs around $330 total.
 (If you're up for soldering the ESP32 WROOM module yourself (difficult), you can use Economy mode instead of Standard and save like $100.)
