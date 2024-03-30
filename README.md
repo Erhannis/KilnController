@@ -13,8 +13,18 @@ Note that in order to flash the code, you need to pull BOOT to GND, plug the boa
 
 Disclaimer: I have no formal electronics training, and this thing connects to 240V, so like, maybe use this thing away from anything flammable, and on your own head be the results.  And DON'T TOUCH THE COILS WHILE IT'S HEATING!  Because they're live 240V, and also may be hot.
 
+# Additional parts
+Thermocouple: https://www.auberins.com/index.php?main_page=product_info&cPath=20_3&products_id=39
+  (Also one of the cheap k-type thermocouples from amazon, for the case.  Though, see notes.)
+Bus blocks: https://www.amazon.com/dp/B0B2L7QBVN
+Heat sinks: https://www.amazon.com/dp/B08ZCYBPTV
+SSRs: https://www.amazon.com/dp/B01MSTFKIP (60DA)
+  Note that (according to tests) these start and stop conducting at zero volt crossings.  Also, they still let like 2mA through while open, which CAN yield high voltages.
+  You might get away with lower amp ones.
+
 # Notes
 I picked the slightly more expensive thermocouple readers, which (supposedly) are more accurate and support multiple thermocouple types instead of just K - just in case that turns out to be useful.  If you're not using k-type, though, you'll probably need to tweak something in code to tell the controllers so.
+I had trouble where at high temperatures, the readings on both thermocouples would go nuts.  This stopped happening after I hung the case thermocouple away from contact with anything else.  I am baffled as to how that could have happened.
 
 MIT license.
 
